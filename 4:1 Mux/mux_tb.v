@@ -1,10 +1,7 @@
-`timescale 1ns / 1ps
-
 module tb_mux;
     reg [1:0] sel;
     reg in0, in1, in2, in3;
     wire out;
-    
     mux uut (
         .sel(sel),
         .in0(in0),
@@ -13,9 +10,7 @@ module tb_mux;
         .in3(in3),
         .out(out)
     );
-    
     initial begin
-
             sel = 2'b00; in0 = 1'b1; in1 = 1'b0; in2 = 1'b0; in3 = 1'b0; 
         #10 sel = 2'b01; in0 = 1'b0; in1 = 1'b1; in2 = 1'b0; in3 = 1'b0; 
         #10 sel = 2'b10; in0 = 1'b0; in1 = 1'b0; in2 = 1'b1; in3 = 1'b0; 
@@ -25,12 +20,6 @@ module tb_mux;
         #10 sel = 2'b10; in0 = 1'b1; in1 = 1'b1; in2 = 1'b0; in3 = 1'b1; 
         #10 sel = 2'b11; in0 = 1'b1; in1 = 1'b1; in2 = 1'b1; in3 = 1'b0; 
         #10;
-        
         $finish;
-    end
-    
-    initial begin
-        $monitor("Time: %0t | sel: %b | in0: %b | in1: %b | in2: %b | in3: %b | out: %b", 
-                 $time, sel, in0, in1, in2, in3, out);
     end
 endmodule
