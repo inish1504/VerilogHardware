@@ -16,14 +16,14 @@ module tb_mux;
     
     initial begin
 
-            sel = 2'b00; in0 = 1'b0; in1 = 1'b1; in2 = 1'b0; in3 = 1'b1; 
-        #10 sel = 2'b01; in0 = 1'b0; in1 = 1'b1; in2 = 1'b0; in3 = 1'b1; 
-        #10 sel = 2'b10; in0 = 1'b0; in1 = 1'b0; in2 = 1'b1; in3 = 1'b1; 
-        #10 sel = 2'b11; in0 = 1'b0; in1 = 1'b0; in2 = 1'b1; in3 = 1'b1; 
-        #10 sel = 2'b00; in0 = 1'b0; in1 = 1'b0; in2 = 1'b1; in3 = 1'b1; 
-        #10 sel = 2'b01; in0 = 1'b0; in1 = 1'b0; in2 = 1'b1; in3 = 1'b1; 
-        #10 sel = 2'b10; in0 = 1'b0; in1 = 1'b0; in2 = 1'b1; in3 = 1'b1; 
-        #10 sel = 2'b11; in0 = 1'b0; in1 = 1'b0; in2 = 1'b1; in3 = 1'b1; 
+            sel = 2'b00; in0 = 1'b1; in1 = 1'b0; in2 = 1'b0; in3 = 1'b0; 
+        #10 sel = 2'b01; in0 = 1'b0; in1 = 1'b1; in2 = 1'b0; in3 = 1'b0; 
+        #10 sel = 2'b10; in0 = 1'b0; in1 = 1'b0; in2 = 1'b1; in3 = 1'b0; 
+        #10 sel = 2'b11; in0 = 1'b0; in1 = 1'b0; in2 = 1'b0; in3 = 1'b1; 
+        #10 sel = 2'b00; in0 = 1'b0; in1 = 1'b1; in2 = 1'b1; in3 = 1'b1; 
+        #10 sel = 2'b01; in0 = 1'b1; in1 = 1'b0; in2 = 1'b1; in3 = 1'b1; 
+        #10 sel = 2'b10; in0 = 1'b1; in1 = 1'b1; in2 = 1'b0; in3 = 1'b1; 
+        #10 sel = 2'b11; in0 = 1'b1; in1 = 1'b1; in2 = 1'b1; in3 = 1'b0; 
         #10;
         
         $finish;
