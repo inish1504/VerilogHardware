@@ -2,6 +2,6 @@
 module half_adder
   input a,b;    
   output s,c;
-  xor x1 (s, a, b); 
-  and a1 (c, a, b);
+  xor s (s, a, b); 
+  and c (c, a, b);
 endmodule
