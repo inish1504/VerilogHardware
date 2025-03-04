@@ -1,2 +1,3 @@
 # VerilogHardware
-Hardware circuits taught in the course Hardware Modelling using Verilog - NPTEL
+This repository contains a collection of Verilog programs for hardware modeling.
+The code examples in this repository are used to implement various digital logic designs using Verilog.
