@@ -1,4 +1,4 @@
-module Mux_2to1 (
+module mux_2to1 (
     input wire a,     
     input wire b,     
     input wire sel,   
