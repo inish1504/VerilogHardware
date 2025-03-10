@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon Mar 10 13:51:18 2025
+[*]
+[dumpfile] "/mnt/d/VerilogHardware/Full_Adder/full_adder_tb.vcd"
+[dumpfile_mtime] "Mon Mar 10 13:49:21 2025"
+[dumpfile_size] 602
+[savefile] "/mnt/d/VerilogHardware/Full_Adder/output.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-4.652789 54 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] full_adder_tb.
+[sst_width] 214
+[signals_width] 90
+[sst_expanded] 1
+[sst_vpaned_height] 152
+@28
+full_adder_tb.dut.a
+full_adder_tb.dut.b
+full_adder_tb.dut.c
+full_adder_tb.dut.s
+@29
+full_adder_tb.dut.carry
+[pattern_trace] 1
+[pattern_trace] 0
