@@ -8,6 +8,7 @@ This repository contains the Verilog code for a **Half Adder**, its testbench, g
 - `half_adder_tb.v` - Testbench for the half adder
 - `half_adder_tb.vcd` - Value Change Dump (VCD) file for waveform analysis
 - `output.png` - Captured waveform image from GTKWave
+- `output.gtkw` - GTKWave configuration file for viewing the waveform
 
 ## Half Adder Description
 A half adder is a combinational circuit that performs binary addition of two single-bit inputs. It has two outputs:
