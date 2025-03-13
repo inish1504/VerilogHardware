@@ -36,11 +36,11 @@ A half adder is a combinational circuit that performs binary addition of two sin
 
 2. **Run the simulation:**
    ```bash
-   vvp half_adder
+   vvp half_adder_tb
    ```
-   This generates the `dump.vcd` file.
+   This generates the `half_adder_tb.vcd` file.
 
 3. **View the waveform using GTKWave:**
    ```bash
-   gtkwave dump.vcd
+   gtkwave half_adder_tb.vcd
    ```
