@@ -31,7 +31,7 @@ A half adder is a combinational circuit that performs binary addition of two sin
 
 1. **Compile the Verilog code using Icarus Verilog:**
    ```bash
-   iverilog -o half_adder half_adder.v half_adder_tb.v
+   iverilog -o half_adder_tb half_adder.v half_adder_tb.v
    ```
 
 2. **Run the simulation:**
