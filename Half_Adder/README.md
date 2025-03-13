@@ -6,7 +6,7 @@ This repository contains the Verilog code for a **Half Adder**, its testbench, g
 
 - `half_adder.v` - Verilog code for the half adder
 - `half_adder_tb.v` - Testbench for the half adder
-- `dump.vcd` - Value Change Dump (VCD) file for waveform analysis
+- `half_adder_tb.vcd` - Value Change Dump (VCD) file for waveform analysis
 - `output.png` - Captured waveform image from GTKWave
 
 ## Half Adder Description
