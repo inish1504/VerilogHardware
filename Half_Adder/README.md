@@ -23,6 +23,9 @@ A half adder is a combinational circuit that performs binary addition of two sin
 | 1 | 0 |  1  |   0   |
 | 1 | 1 |  0  |   1   |
 
+## Output Waveform
+![Half Adder Waveform](output.png)
+
 ## How to Run
 
 1. **Compile the Verilog code using Icarus Verilog:**
@@ -40,6 +43,3 @@ A half adder is a combinational circuit that performs binary addition of two sin
    ```bash
    gtkwave dump.vcd
    ```
-
-## Output Waveform
-![Half Adder Waveform](output.png)
