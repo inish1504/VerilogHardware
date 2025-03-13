@@ -1,4 +1,4 @@
-# VerilogHardware
+# Verilog Hardware Modeling
 
 ## Overview
 This repository contains various Verilog hardware descriptions and projects that I have worked on. The goal is to design, simulate, and implement digital circuits using Verilog.
