@@ -1,0 +1,46 @@
+name: Sort Folders by Date
+
+on:
+  push:
+    branches:
+      - main  # Change this if you're using a different branch
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight
+
+jobs:
+  sort_folders:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Get Folder Creation Dates
+        run: |
+          # Get all folders (ignoring hidden folders)
+          folders=$(find . -maxdepth 1 -type d ! -name '.*' | sort)
+          
+          # Create or overwrite README.md
+          echo "# Folders Sorted by Date Added" > README.md
+          echo "" >> README.md
+
+          # Loop through folders and get their first commit (creation date)
+          for folder in $folders; do
+            if [ "$folder" != "." ]; then
+              created_date=$(git log --diff-filter=A --follow --format=%aI -- "$folder" | tail -1)
+              echo "$created_date $folder" >> folder_dates.txt
+            fi
+          done
+
+          # Sort folders by creation date (oldest first)
+          sort folder_dates.txt | awk '{print "- [" $2 "](" $2 ")"}' >> README.md
+
+          rm folder_dates.txt
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Update folder list sorted by date added" || echo "No changes to commit"
+          git push
