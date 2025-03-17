@@ -1,0 +1,24 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon Mar 17 13:49:51 2025
+[*]
+[dumpfile] "/mnt/d/VerilogHardware/Mux_8to1/mux_8to1_tb.vcd"
+[dumpfile_mtime] "Mon Mar 17 13:49:07 2025"
+[dumpfile_size] 1133
+[savefile] "/mnt/d/VerilogHardware/Mux_8to1/output.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -532 59
+*-4.723963 45 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 214
+[signals_width] 121
+[sst_expanded] 1
+[sst_vpaned_height] 152
+@22
+mux_8to1_tb.in[7:0]
+@28
+mux_8to1_tb.sel[2:0]
+@29
+mux_8to1_tb.out
+[pattern_trace] 1
+[pattern_trace] 0
