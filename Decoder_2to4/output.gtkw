@@ -1,0 +1,24 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon Mar 17 21:57:36 2025
+[*]
+[dumpfile] "/mnt/d/VerilogHardware/Decoder_2to4/decoder_2to4_tb.vcd"
+[dumpfile_mtime] "Mon Mar 17 21:55:07 2025"
+[dumpfile_size] 611
+[savefile] "/mnt/d/VerilogHardware/Decoder_2to4/output.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -340 41
+*-4.387241 24 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] decoder_2to4_tb.
+[treeopen] decoder_2to4_tb.uut.
+[sst_width] 214
+[signals_width] 151
+[sst_expanded] 1
+[sst_vpaned_height] 152
+@28
+decoder_2to4_tb.uut.enable
+decoder_2to4_tb.uut.in[1:0]
+decoder_2to4_tb.uut.out[3:0]
+[pattern_trace] 1
+[pattern_trace] 0
