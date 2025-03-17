@@ -56,3 +56,4 @@ An 8:1 multiplexer (MUX) is a combinational circuit that selects one of eight in
    ```bash
    gtkwave mux_8to1_tb.vcd
    ```
+   git
