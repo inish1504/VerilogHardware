@@ -1,6 +1,6 @@
 # 8:1 Multiplexer Verilog Implementation
 
-This repository contains the Verilog code for an **8:1 Multiplexer**, its testbench, generated waveform files, and instructions to view the output using GTKWave.
+This repository contains the Verilog code for an **8:1 Multiplexer** using **two 4:1 multiplexers** and **one 2:1 multiplexer**, its testbench, generated waveform files, and instructions to view the output using GTKWave.
 
 ## Files Included
 
