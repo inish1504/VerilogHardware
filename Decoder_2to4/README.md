@@ -69,3 +69,4 @@ When **enable = 0**, all outputs remain **1 (inactive state)**.
    ```bash
    gtkwave decoder_2to4_tb.vcd
    ```
+   
