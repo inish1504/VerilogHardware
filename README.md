@@ -10,10 +10,11 @@ This repository contains various Verilog hardware descriptions and projects that
 | **Full Adder**     | A combinational circuit that adds three input bits and produces a sum and carry output. |
 | **2:1 Multiplexer (Mux)** | A digital circuit that selects one of two input signals based on a control signal. |
 | **4:1 Multiplexer (Mux)** | A digital circuit that selects one of four input signals based on two control signals. |
+| **8:1 Multiplexer (Mux)** | A hierarchical design that selects one of eight input signals using three control signals, implemented using two 4:1 Muxes and one 2:1 Mux. |
 
 ## Tools Used
 - **Icarus Verilog (iverilog)** - For simulation
 - **GTKWave** - For waveform visualization
 
 ---
-*Created by [Inish](https://github.com/inish1504)**
+Created by [Inish](https://github.com/inish1504)
