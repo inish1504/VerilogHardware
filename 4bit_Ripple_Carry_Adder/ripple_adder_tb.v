@@ -13,8 +13,8 @@ module ripple_adder_tb;
     );
 
     initial begin
-        $dumpfile("ripple_carry_adder_4bit_tb.vcd");
-        $dumpvars(0, ripple_carry_adder_4bit_tb);
+        $dumpfile("ripple_adder_tb.vcd");
+        $dumpvars(0, ripple_adder_tb);
         $monitor("Time=%0t | a=%b | b=%b | cin=%b | sum=%b | carry_out=%b", $time, a, b, cin, sum, carry_out);
 
         a = 4'b0000; b = 4'b0000; cin = 1'b0; #10;  
