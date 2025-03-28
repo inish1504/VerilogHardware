@@ -1,0 +1,24 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri Mar 28 20:07:41 2025
+[*]
+[dumpfile] "/mnt/d/VerilogHardware/4bit_Ripple_Carry_Adder/ripple_adder_tb.vcd"
+[dumpfile_mtime] "Fri Mar 28 20:03:35 2025"
+[dumpfile_size] 1481
+[savefile] "/mnt/d/VerilogHardware/4bit_Ripple_Carry_Adder/output.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -408 68
+*-3.777406 22 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 214
+[signals_width] 136
+[sst_expanded] 1
+[sst_vpaned_height] 152
+@28
+ripple_adder_tb.a[3:0]
+ripple_adder_tb.b[3:0]
+ripple_adder_tb.cin
+ripple_adder_tb.sum[3:0]
+ripple_adder_tb.carry_out
+[pattern_trace] 1
+[pattern_trace] 0
