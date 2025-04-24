@@ -1,0 +1,124 @@
+#! /usr/local/bin/vvp
+:ivl_version "13.0 (devel)" "(s20221226-533-g676b36e45)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/local/lib/ivl/system.vpi";
+:vpi_module "/usr/local/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/local/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/local/lib/ivl/v2005_math.vpi";
+:vpi_module "/usr/local/lib/ivl/va_math.vpi";
+S_0x55896bace4e0 .scope module, "multiplier_4bit_tb" "multiplier_4bit_tb" 2 1;
+ .timescale 0 0;
+v0x55896bb26a50_0 .var "a", 3 0;
+v0x55896bb26b10_0 .var "b", 3 0;
+v0x55896bb26bb0_0 .net "product", 7 0, L_0x55896bb28430;  1 drivers
+S_0x55896baf8df0 .scope module, "uut" "multiplier_4bit" 2 7, 3 1 0, S_0x55896bace4e0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "a";
+    .port_info 1 /INPUT 4 "b";
+    .port_info 2 /OUTPUT 8 "product";
+L_0x55896bb26de0 .functor AND 4, v0x55896bb26a50_0, L_0x55896bb26cf0, C4<1111>, C4<1111>;
+L_0x55896bb270b0 .functor AND 4, v0x55896bb26a50_0, L_0x55896bb26f90, C4<1111>, C4<1111>;
+L_0x55896bb27320 .functor AND 4, v0x55896bb26a50_0, L_0x55896bb27210, C4<1111>, C4<1111>;
+L_0x55896bb27570 .functor AND 4, v0x55896bb26a50_0, L_0x55896bb27430, C4<1111>, C4<1111>;
+v0x55896bafa190_0 .net *"_ivl_1", 0 0, L_0x55896bb26c50;  1 drivers
+v0x55896bb24ab0_0 .net *"_ivl_13", 0 0, L_0x55896bb27170;  1 drivers
+v0x55896bb24b90_0 .net *"_ivl_15", 3 0, L_0x55896bb27210;  1 drivers
+v0x55896bb24c50_0 .net *"_ivl_19", 0 0, L_0x55896bb27390;  1 drivers
+v0x55896bb24d30_0 .net *"_ivl_21", 3 0, L_0x55896bb27430;  1 drivers
+L_0x7f6391339018 .functor BUFT 1, C4<0000>, C4<0>, C4<0>, C4<0>;
+v0x55896bb24e60_0 .net *"_ivl_27", 3 0, L_0x7f6391339018;  1 drivers
+v0x55896bb24f40_0 .net *"_ivl_28", 7 0, L_0x55896bb277a0;  1 drivers
+v0x55896bb25020_0 .net *"_ivl_3", 3 0, L_0x55896bb26cf0;  1 drivers
+L_0x7f6391339060 .functor BUFT 1, C4<0000>, C4<0>, C4<0>, C4<0>;
+v0x55896bb25100_0 .net *"_ivl_31", 3 0, L_0x7f6391339060;  1 drivers
+v0x55896bb251e0_0 .net *"_ivl_34", 6 0, L_0x55896bb278f0;  1 drivers
+L_0x7f63913390a8 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55896bb252c0_0 .net *"_ivl_36", 0 0, L_0x7f63913390a8;  1 drivers
+v0x55896bb253a0_0 .net *"_ivl_38", 7 0, L_0x55896bb27bf0;  1 drivers
+L_0x7f63913390f0 .functor BUFT 1, C4<0000>, C4<0>, C4<0>, C4<0>;
+v0x55896bb25480_0 .net *"_ivl_41", 3 0, L_0x7f63913390f0;  1 drivers
+v0x55896bb25560_0 .net *"_ivl_44", 5 0, L_0x55896bb27d30;  1 drivers
+L_0x7f6391339138 .functor BUFT 1, C4<00>, C4<0>, C4<0>, C4<0>;
+v0x55896bb25640_0 .net *"_ivl_46", 1 0, L_0x7f6391339138;  1 drivers
+v0x55896bb25720_0 .net *"_ivl_48", 7 0, L_0x55896bb28030;  1 drivers
+L_0x7f6391339180 .functor BUFT 1, C4<0000>, C4<0>, C4<0>, C4<0>;
+v0x55896bb25800_0 .net *"_ivl_51", 3 0, L_0x7f6391339180;  1 drivers
+v0x55896bb258e0_0 .net *"_ivl_54", 4 0, L_0x55896bb28200;  1 drivers
+L_0x7f63913391c8 .functor BUFT 1, C4<000>, C4<0>, C4<0>, C4<0>;
+v0x55896bb259c0_0 .net *"_ivl_56", 2 0, L_0x7f63913391c8;  1 drivers
+v0x55896bb25aa0_0 .net *"_ivl_58", 7 0, L_0x55896bb284d0;  1 drivers
+v0x55896bb25b80_0 .net *"_ivl_60", 7 0, L_0x55896bb28610;  1 drivers
+v0x55896bb25c60_0 .net *"_ivl_7", 0 0, L_0x55896bb26ef0;  1 drivers
+v0x55896bb25d40_0 .net *"_ivl_9", 3 0, L_0x55896bb26f90;  1 drivers
+v0x55896bb25e20_0 .net "a", 3 0, v0x55896bb26a50_0;  1 drivers
+v0x55896bb25f00_0 .net "b", 3 0, v0x55896bb26b10_0;  1 drivers
+v0x55896bb25fe0_0 .net "fp0", 7 0, L_0x55896bb27660;  1 drivers
+v0x55896bb260c0_0 .net "fp1", 7 0, L_0x55896bb27a10;  1 drivers
+v0x55896bb261a0_0 .net "fp2", 7 0, L_0x55896bb27ef0;  1 drivers
+v0x55896bb26280_0 .net "fp3", 7 0, L_0x55896bb282f0;  1 drivers
+v0x55896bb26360_0 .net "p0", 3 0, L_0x55896bb26de0;  1 drivers
+v0x55896bb26440_0 .net "p1", 3 0, L_0x55896bb270b0;  1 drivers
+v0x55896bb26520_0 .net "p2", 3 0, L_0x55896bb27320;  1 drivers
+v0x55896bb26600_0 .net "p3", 3 0, L_0x55896bb27570;  1 drivers
+v0x55896bb268f0_0 .net "product", 7 0, L_0x55896bb28430;  alias, 1 drivers
+L_0x55896bb26c50 .part v0x55896bb26b10_0, 0, 1;
+L_0x55896bb26cf0 .repeat 4, 4, L_0x55896bb26c50;
+L_0x55896bb26ef0 .part v0x55896bb26b10_0, 1, 1;
+L_0x55896bb26f90 .repeat 4, 4, L_0x55896bb26ef0;
+L_0x55896bb27170 .part v0x55896bb26b10_0, 2, 1;
+L_0x55896bb27210 .repeat 4, 4, L_0x55896bb27170;
+L_0x55896bb27390 .part v0x55896bb26b10_0, 3, 1;
+L_0x55896bb27430 .repeat 4, 4, L_0x55896bb27390;
+L_0x55896bb27660 .concat [ 4 4 0 0], L_0x55896bb26de0, L_0x7f6391339018;
+L_0x55896bb277a0 .concat [ 4 4 0 0], L_0x55896bb270b0, L_0x7f6391339060;
+L_0x55896bb278f0 .part L_0x55896bb277a0, 0, 7;
+L_0x55896bb27a10 .concat [ 1 7 0 0], L_0x7f63913390a8, L_0x55896bb278f0;
+L_0x55896bb27bf0 .concat [ 4 4 0 0], L_0x55896bb27320, L_0x7f63913390f0;
+L_0x55896bb27d30 .part L_0x55896bb27bf0, 0, 6;
+L_0x55896bb27ef0 .concat [ 2 6 0 0], L_0x7f6391339138, L_0x55896bb27d30;
+L_0x55896bb28030 .concat [ 4 4 0 0], L_0x55896bb27570, L_0x7f6391339180;
+L_0x55896bb28200 .part L_0x55896bb28030, 0, 5;
+L_0x55896bb282f0 .concat [ 3 5 0 0], L_0x7f63913391c8, L_0x55896bb28200;
+L_0x55896bb284d0 .arith/sum 8, L_0x55896bb27660, L_0x55896bb27a10;
+L_0x55896bb28610 .arith/sum 8, L_0x55896bb284d0, L_0x55896bb27ef0;
+L_0x55896bb28430 .arith/sum 8, L_0x55896bb28610, L_0x55896bb282f0;
+    .scope S_0x55896bace4e0;
+T_0 ;
+    %vpi_call 2 14 "$dumpfile", "multiplier_4bit_tb.vcd" {0 0 0};
+    %vpi_call 2 15 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x55896bace4e0 {0 0 0};
+    %vpi_call 2 16 "$monitor", "Time = %0t | a = %b, b = %b, product = %b", $time, v0x55896bb26a50_0, v0x55896bb26b10_0, v0x55896bb26bb0_0 {0 0 0};
+    %pushi/vec4 0, 0, 4;
+    %store/vec4 v0x55896bb26a50_0, 0, 4;
+    %pushi/vec4 0, 0, 4;
+    %store/vec4 v0x55896bb26b10_0, 0, 4;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 4;
+    %store/vec4 v0x55896bb26a50_0, 0, 4;
+    %pushi/vec4 1, 0, 4;
+    %store/vec4 v0x55896bb26b10_0, 0, 4;
+    %delay 10, 0;
+    %pushi/vec4 2, 0, 4;
+    %store/vec4 v0x55896bb26a50_0, 0, 4;
+    %pushi/vec4 2, 0, 4;
+    %store/vec4 v0x55896bb26b10_0, 0, 4;
+    %delay 10, 0;
+    %pushi/vec4 15, 0, 4;
+    %store/vec4 v0x55896bb26a50_0, 0, 4;
+    %pushi/vec4 15, 0, 4;
+    %store/vec4 v0x55896bb26b10_0, 0, 4;
+    %delay 10, 0;
+    %pushi/vec4 10, 0, 4;
+    %store/vec4 v0x55896bb26a50_0, 0, 4;
+    %pushi/vec4 12, 0, 4;
+    %store/vec4 v0x55896bb26b10_0, 0, 4;
+    %delay 10, 0;
+    %vpi_call 2 24 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "multiplier_4bit_tb.v";
+    "multiplier_4bit.v";
