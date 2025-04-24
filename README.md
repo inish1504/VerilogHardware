@@ -14,6 +14,8 @@ This repository contains various Verilog hardware descriptions and projects that
 | [**2:4 Decoder (Active Low)**](Decoder_2to4) | A combinational circuit that decodes a 2-bit input into four active-low outputs. |
 | [**3:8 Decoder (Active Low)**](Decoder_3to8) | A hierarchical decoder implemented using two 2:4 decoders to decode a 3-bit input into eight active-low outputs. |
 | [**4-Bit Ripple Carry Adder**](4bit_Ripple_Carry_Adder) | A 4-bit adder built using cascaded full adders to perform multi-bit binary addition. |
+| [**4-Bit Binary Multiplier**](4Bit_Binary_Multiplication) | A 4-bit multiplier that uses shift-and-add algorithm for binary multiplication. |
+
 ## Tools Used
 - **Icarus Verilog (iverilog)** - For simulation
 - **GTKWave** - For waveform visualization
