@@ -1,0 +1,46 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Thu Apr 24 07:38:02 2025
+[*]
+[dumpfile] "/mnt/d/VerilogHardware/4bit_Binary_Multiplication/multiplier_4bit_tb.vcd"
+[dumpfile_mtime] "Thu Apr 24 07:35:25 2025"
+[dumpfile_size] 1098
+[savefile] "/mnt/d/VerilogHardware/4bit_Binary_Multiplication/output.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 33266 32750
+*-4.291142 45 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] multiplier_4bit_tb.
+[sst_width] 214
+[signals_width] 213
+[sst_expanded] 1
+[sst_vpaned_height] 152
+@24
+multiplier_4bit_tb.a[3:0]
+multiplier_4bit_tb.b[3:0]
+multiplier_4bit_tb.product[7:0]
+@28
+[color] 2
+multiplier_4bit_tb.uut.a[3:0]
+[color] 2
+multiplier_4bit_tb.uut.b[3:0]
+[color] 2
+multiplier_4bit_tb.uut.p0[3:0]
+[color] 2
+multiplier_4bit_tb.uut.p1[3:0]
+[color] 2
+multiplier_4bit_tb.uut.p2[3:0]
+[color] 2
+multiplier_4bit_tb.uut.p3[3:0]
+[color] 2
+multiplier_4bit_tb.uut.fp0[7:0]
+[color] 2
+multiplier_4bit_tb.uut.fp1[7:0]
+[color] 2
+multiplier_4bit_tb.uut.fp2[7:0]
+[color] 2
+multiplier_4bit_tb.uut.fp3[7:0]
+[color] 2
+multiplier_4bit_tb.uut.product[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
