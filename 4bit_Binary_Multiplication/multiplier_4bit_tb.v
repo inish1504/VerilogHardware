@@ -11,6 +11,8 @@ module multiplier_4bit_tb;
     );
 
     initial begin
+        $dumpfile("multiplier_4bit_tb.vcd");
+        $dumpvars(0, multiplier_4bit_tb);
         $monitor("Time = %0t | a = %b, b = %b, product = %b", $time, a, b, product);
 
         a = 4'b0000; b = 4'b0000; #10;
